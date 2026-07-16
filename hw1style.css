@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: royalblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: yellow;
+}
+h1{
+    font-size: large;
+    color: antiquewhite;
+    text-align: center;
+}
+button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: salmon;
+    box-shadow: 0.01vmin;
+}
+section{
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+}
