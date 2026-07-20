@@ -1,0 +1,19 @@
+body {
+    background-color: chartreuse;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 300px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    background-color: royalblue;
+    color: aliceblue;
+}

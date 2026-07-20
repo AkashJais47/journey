@@ -1,0 +1,32 @@
+body {
+  background-image: url(images.jfif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+    width: 700px;
+    height: 300px;
+    border: 2px solid gold;
+    display: flex;
+    border-radius: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid violet;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+    margin: auto;
+    flex: content;
+}
