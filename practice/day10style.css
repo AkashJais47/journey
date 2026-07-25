@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+.container {
+    display: grid;
+    border: 3px solid purple;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.box {
+    height: 80px;
+    border: 2px solid blue;
+    background: darkgray;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

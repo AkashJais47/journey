@@ -1,0 +1,77 @@
+body {
+    background-color: gold;
+}
+.cont {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    background-color: royalblue;
+    height: 50px;
+    width: 100px;
+    border: 4px solid springgreen;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    transition: 0.8s;
+}
+
+.card1:hover {
+    background-color: hotpink;
+    border-radius: 1000px;
+    transform: 
+    scale(0.9);
+}
+
+.card2 {
+    background-color: royalblue;
+    height: 50px;
+    width: 100px;
+    border: 4px solid springgreen;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 230px;
+    right: 240px;
+    transition: 0.8s;
+    z-index: 1;
+}
+
+.card2:hover {
+    background-color: hotpink;
+    border-radius: 1000px;
+    transform: 
+    scale(1.12);
+}
+
+.card3 {
+    background-color: royalblue;
+    height: 50px;
+    width: 100px;
+    border: 4px solid springgreen;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    transition: 1s;
+    z-index: 3;
+}
+
+.card3:hover {
+    background-color: hotpink;
+    border-radius: 1000px;
+    transform: 
+    translateX(-200px)
+    rotate(45deg)
+    scale(1.12);
+}
