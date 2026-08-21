@@ -1,0 +1,9 @@
+.green {
+    color: green;
+    text-decoration-line: line-through;
+}
+
+.red {
+    color: red;
+    text-decoration-line: underline;
+}
